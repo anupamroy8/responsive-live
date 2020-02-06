@@ -171,7 +171,7 @@ body {
     line-height: 3;
 }
 .imglogo {
-    width: 15%;
+    width: 20%;
 }
 .header-menu a {
     font-size: 24px;
@@ -203,15 +203,27 @@ body {
 /* image box */
 .box {
     width: 30%;
-    padding: 24px 68px;
+    /* padding: 24px 68px; */
     margin: 10px;
-
+    position: relative;
+    height: 300px;
 }
 .circle {
     width: 225px;
     height: 225px;
     border-radius: 50%;
-    
+    position: absolute;
+    top: 50%;
+    left:  50%;
+    transform: translate(-50%,-50%); 
+}
+.image {
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left:  50%;
+    transform: translate(-50%,-50%); 
 }
 
 .boxbg1 {
@@ -384,7 +396,7 @@ tr:nth-child(odd) {
         justify-content: center;
     }
     .hero-heading {
-        font-size: 48px;
+        font-size: 44px;
     }
     .box {
         width: 100%;
